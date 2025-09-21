@@ -1,39 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Step Studio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Step Studio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <h1>Dream Step Studio</h1>
-        </div>
-        <div class="navitems">
-            <ul class="navi">
-                <li>Home</li>
-                <li>Courses</li>
-                <li>Reviews</li>
-                <li>About</li>
-            </ul>
-        </div>
-        <div class="navbtns">
-            <button class="loginBtn navbtn">Login</button>
-            <button class="SignupBtn navbtn">Sign Up</button>
-        </div>
-    </div>
 
-    <div class="hero">
+
+  <div class="navbar">
+    <div class="logo">
+      <h1>Dream Step Studio</h1>
+    </div>
+    <div class="navitems">
+      <ul class="navi">
+        <li class="nitem"><a href="#home">Home</a></li>
+        <li class="nitem"><a href="#courses">Courses</a></li>
+        <li class="nitem"><a href="#reviews">Reviews</a></li>
+        <li class="nitem"><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <div class="navbtns">
+      <button class="loginBtn navbtn">Login</button>
+      <button class="SignupBtn navbtn">Sign Up</button>
+    </div>
+  </div>
+
+  <div class="contentWrapper">
+      <div id="home" class="hero">
         <div class="heroCol1"></div>
         <div class="heroCol2">
-            <div class="col2Wrapper">
-                <h1>Learn to Dance</h1>
-                <h1>Join the Movement</h1>
-                 <button class="callforaction">Get Started</button>
-            </div>
+          <div class="col2Wrapper">
+            <h1>Learn to Dance</h1>
+            <h1>Join the Movement</h1>
+            <button class="callforaction">Get Started</button>
+          </div>
         </div>
-    </div>
+      </div>
+    
+      <section id="courses" class="courses">
+        <h2 class="titleText">Our Courses</h2>
+        <div class="courseGrid">
+          <div class="courseCard">
+            <h3>Hip Hop</h3>
+            <p>Energetic street-style moves that build confidence and rhythm.</p>
+          </div>
+          <div class="courseCard">
+            <h3>Ballet</h3>
+            <p>Graceful movements, posture, and discipline for all ages.</p>
+          </div>
+          <div class="courseCard">
+            <h3>Salsa</h3>
+            <p>Learn the passion of Latin dance with vibrant group sessions.</p>
+          </div>
+          <div class="courseCard">
+            <h3>Contemporary</h3>
+            <p>Express emotions with fluid movement and modern creativity.</p>
+          </div>
+        </div>
+      </section>
+    
+      <section id="reviews" class="reviews">
+        <h2 class="titleText">What Our Students Say</h2>
+        <div class="reviewGrid">
+          <div class="reviewCard">
+            <p>"Dream Step Studio transformed my confidence on stage!"</p>
+            <span>- Priya</span>
+          </div>
+          <div class="reviewCard">
+            <p>"Amazing instructors and such a fun environment."</p>
+            <span>- Rahul</span>
+          </div>
+          <div class="reviewCard">
+            <p>"I joined for fitness, but stayed for the community."</p>
+            <span>- Ayesha</span>
+          </div>
+        </div>
+      </section>
+    
+      <section id="about" class="about">
+        <h2 class="titleText">About Us</h2>
+        <p>
+          At Dream Step Studio, dance is more than just movement—it’s a lifestyle.  
+          Founded in 2020, we aim to inspire creativity, fitness, and confidence in every student.  
+          Our instructors bring years of professional experience to create an inclusive and exciting space for all ages.
+        </p>
+      </section>
+    
+      <footer>
+        <p class="rights">© 2025 Dream Step Studio | All Rights Reserved</p>
+        <p>Follow us on 
+          <a href="#">Instagram</a> | 
+          <a href="#">Facebook</a> | 
+          <a href="#">YouTube</a>
+        </p>
+      </footer>
+
+  </div>
 </body>
 </html>
